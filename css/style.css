@@ -35,7 +35,8 @@
 }
 .dropdown-toggle{
 	font-family: 'flama_condensed_semiboldSBd';
-	font-size: 20px;
+	font-size: 16px;
+	letter-spacing: 1px;
 }
 .dropdown-menu{
 	font-family: 'flama_semicondensedlight';
