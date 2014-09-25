@@ -1,0 +1,147 @@
+.nav{
+	/*height: 70px;*/
+	background: white;
+}
+.navbar{
+	background: white;
+	margin-bottom: 0px;
+	min-height: 70px;
+}
+.navbar-brand{
+	height: 70px;
+	padding: 17px 30px;
+}
+.navbar-brand img{
+	height: 36px;
+	width: 141px;
+	/*this is the shopping cart*/
+}
+.navbar-default{
+	border: none;
+}
+.jumbotron.hero{
+	width: 100%;
+	background-image: url('../img/herobike.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0;
+
+}
+/*.jumbotron.featured{
+	background-image: url("../img/kissenacomplete.jpg");
+}*/
+.dropdown:active{
+	background-color: #E6E7E8;
+}
+.dropdown-toggle{
+	font-family: 'flama_condensed_semiboldSBd';
+	font-size: 20px;
+}
+.dropdown-menu{
+	font-family: 'flama_semicondensedlight';
+}
+.cart{
+	margin-left: 60px;
+}
+h1{
+	font-family: 'flama_condensed_semiboldSBd';
+	font-size: 55px;
+	color: #102A4D;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.hero h1{
+	margin-top: 120px;
+}
+.top20{
+	margin-top: 20px;
+}
+.top30{
+	margin-top: 30px;
+}
+.bot60{
+	margin-bottom: 60px;
+}
+h2{
+	font-family: 'flama_condensed_semiboldSBd';
+	font-size: 35px;
+	color: white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+h3{
+	font-family: 'flama_condensed_semiboldSBd';
+	font-size: 35px;
+	color: #102A4D;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+h4{
+	font-family: "flama_condensed_semiboldSBd";
+	font-size: 25px;
+	color: #102A4D;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+@media (min-width: 320px){
+	.jumbotron.hero{
+		height: 200px;
+	}
+}
+@media (min-width: 480px){
+	.jumbotron.hero{
+		height: 250px;
+	}
+}
+@media (min-width: 768px){
+	.jumbotron.hero{
+		height: 400px;
+	}
+	.nav li a{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+@media (min-width: 1020px){
+	.jumbotron.hero{
+		height: 531px;
+	}
+	.nav li a{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+@media (min-width: 1200px){
+	.jumbotron.hero{
+		height: 750px;
+	}
+}
+.ptext{
+	font-family: 'flama_semicondensedlight';
+	color: grey;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+/*.btn{
+	border-radius: 0;
+	border: 3px solid #939597;
+	padding: 4px;
+	color: #939597;
+}*/
+.col-md-4{
+	text-align: center;
+}
+.bred{
+	background: #102A4D;
+	color: white;
+	text-align: center;
+}
+.list-group{
+	width: 190px;
+	float: left;
+}
+.list-group-item{
+	border: none;
+	padding: 0;
+}
