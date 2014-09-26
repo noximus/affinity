@@ -42,7 +42,7 @@
 	font-family: 'flama_semicondensedlight';
 }
 .cart{
-	margin-left: 60px;
+	/*margin-left: 60px;*/
 }
 h1{
 	font-family: 'flama_condensed_semiboldSBd';
@@ -60,15 +60,16 @@ h1{
 .top30{
 	margin-top: 30px;
 }
+.top60{
+	margin-top: 60px;
+}
 .bot30{
 	margin-bottom: 30px;
 }
 .bot60{
 	margin-bottom: 60px;
 }
-.top60{
-	margin-top: 60px;
-}
+
 h2{
 	font-family: 'flama_condensed_semiboldSBd';
 	font-size: 35px;
@@ -103,20 +104,17 @@ h4{
 }
 @media (min-width: 768px){
 	.jumbotron.hero{
-		height: 400px;
+		height: 513px;
 	}
 	.nav li a{
-		padding-left: 30px;
-		padding-right: 30px;
+		padding-left: 10px;
+        padding-right: 10px;
+        width: 110px;
 	}
 }
 @media (min-width: 1020px){
 	.jumbotron.hero{
 		height: 531px;
-	}
-	.nav li a{
-		padding-left: 30px;
-		padding-right: 30px;
 	}
 }
 @media (min-width: 1200px){
