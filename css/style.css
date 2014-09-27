@@ -19,6 +19,11 @@
 .navbar-default{
 	border: none;
 }
+.jumbotron {
+  padding: 15px;
+  margin-bottom: 0px;
+  background-color: #eee;
+}
 .jumbotron.hero{
 	width: 100%;
 	background-image: url('../img/herobike.jpg');
@@ -44,15 +49,16 @@
 .cart{
 	/*margin-left: 60px;*/
 }
+
 h1{
 	font-family: 'flama_condensed_semiboldSBd';
-	font-size: 55px;
+	font-size: 25px;
 	color: #102B4E;
-	letter-spacing: 3px;
+	letter-spacing: 1.3px;
 	text-transform: uppercase;
 }
 .hero h1{
-	margin-top: 120px;
+	margin-top: 15px;
 }
 .top20{
 	margin-top: 20px;
@@ -72,55 +78,35 @@ h1{
 
 h2{
 	font-family: 'flama_condensed_semiboldSBd';
-	font-size: 35px;
+	font-size: 18px;
 	color: white;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	text-transform: uppercase;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 h3{
 	font-family: 'flama_condensed_semiboldSBd';
-	font-size: 35px;
-	color: #102A4D;
-	letter-spacing: 2px;
+	font-size: 18px;
+	color: #102B4E;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 h4{
 	font-family: "flama_condensed_semiboldSBd";
 	font-size: 25px;
-	color: #102A4D;
-	letter-spacing: 1px;
+	color: #102B4E;
+	letter-spacing: 1.3px;
 	text-transform: uppercase;
 }
-@media (min-width: 320px){
-	.jumbotron.hero{
-		height: 200px;
-	}
+.footer {
+    width:100%;
+    height:165px;
+    background-color:#bcbdc0;
 }
-@media (min-width: 480px){
-	.jumbotron.hero{
-		height: 250px;
-	}
-}
-@media (min-width: 768px){
-	.jumbotron.hero{
-		height: 513px;
-	}
-	.nav li a{
-		padding-left: 10px;
-        padding-right: 10px;
-        width: 110px;
-	}
-}
-@media (min-width: 1020px){
-	.jumbotron.hero{
-		height: 531px;
-	}
-}
-@media (min-width: 1200px){
-	.jumbotron.hero{
-		height: 750px;
-	}
+.footer .form-control{
+    width: 220px;
+    background-color:white;
+    border:none;
 }
 .ptext{
 	font-family: 'flama_semicondensedlight';
@@ -134,13 +120,13 @@ h4{
 	padding: 4px;
 	color: #939597;
 }*/
-.col-md-4{
-	text-align: center;
-}
-.bred{
-	background: #102A4D;
-	color: white;
-	text-align: center;
+
+
+.bred {
+    background: #102A4D;
+    color: white;
+    text-align: center;
+    height: 58px;
 }
 .list-group{
 	width: 190px;
@@ -150,3 +136,74 @@ h4{
 	border: none;
 	padding: 0;
 }
+@media (min-width: 320px){
+	.jumbotron.hero{
+		height: 200px;
+	}
+}
+@media (min-width: 480px){
+	.jumbotron.hero{
+		height: 250px;
+	}
+}
+@media (min-width: 768px){
+    h1{
+	font-family: 'flama_condensed_semiboldSBd';
+	font-size: 55px;
+	color: #102B4E;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+    }
+    h2{
+        font-family: 'flama_condensed_semiboldSBd';
+        font-size: 35px;
+        color: white;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    h3{
+        font-family: 'flama_condensed_semiboldSBd';
+        font-size: 35px;
+        color: #102B4E;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    h4{
+        font-family: "flama_condensed_semiboldSBd";
+        font-size: 25px;
+        color: #102B4E;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .jumbotron {
+      padding: 30px;
+      margin-bottom: 0px;
+      background-color: #eee;
+    }
+    .jumbotron.hero{
+		height: 513px;
+	}
+	.nav li a{
+		padding-left: 10px;
+        padding-right: 10px;
+        width: 110px;
+	}
+    .hero h1{
+        margin-top: 120px;
+    }
+    .bred{
+        height:70px;
+    }
+}
+@media (min-width: 1020px){
+	.jumbotron.hero{
+		height: 513px;
+	}
+}
+@media (min-width: 1200px){
+	.jumbotron.hero{
+		height: 513px;
+	}
+}
+
