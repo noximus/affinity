@@ -182,7 +182,9 @@ h4{
 		height: 513px;
 	}
     .subnav {
-     background-color:#e7e7e7;   
+        background-color:#e7e7e7; 
+        min-height:40px;  
+        height:40px;
     }
     .subnav .nav {
         background-color:#e7e7e7;
