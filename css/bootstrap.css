@@ -3763,7 +3763,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding:11px 30px 12px 30px;
   font-family: 'flama_semicondensedlight';
   font-size: 12px;
-  color: #102B4E;
+  color: #102B4E; 
 }
 .nav-pills > li + li {
   margin-left: 2px;
