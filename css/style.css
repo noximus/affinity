@@ -181,11 +181,6 @@ h4{
     .jumbotron.hero{
 		height: 513px;
 	}
-	.nav li a{
-		padding-left: 10px;
-        padding-right: 10px;
-        width: 110px;
-	}
     .subnav {
      background-color:#e7e7e7;   
     }
