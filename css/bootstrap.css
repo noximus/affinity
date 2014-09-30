@@ -2778,9 +2778,9 @@ select[multiple].input-lg {
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px;
+    /* [disabled]outline: thin dotted; */
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
 }
 .btn:hover,
 .btn:focus {
@@ -2905,7 +2905,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   border-radius: 0;
-  border: 1px solid #fff;
+  border: none;
   padding: 3px 12px;
   letter-spacing: 1.3px;
   color: #fff;
@@ -2916,12 +2916,12 @@ fieldset[disabled] .btn-primary.active {
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
-  border-radius: 0;
-  border: 1px solid #fff;
-  padding: 3px 12px;
-  letter-spacing: 1.3px;
-  color: #fff;
-  background-color: #102B4E;
+    border-radius: 0;
+    /* [disabled]border: 1px solid #fff; */
+    padding: 3px 12px;
+    letter-spacing: 1.3px;
+    color: #fff;
+    background-color: #102B4E;
 }
 .btn-success:active,
 .btn-success.active,

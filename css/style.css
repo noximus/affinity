@@ -109,6 +109,10 @@ h4{
     background-color:white;
     border:none;
 }
+.footer .social {
+    margin-top:15px;   
+    margin-right:3px;
+}
 .ptext{
 	font-family: 'flama_semicondensedlight';
 	color: grey;
