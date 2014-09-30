@@ -75,6 +75,9 @@ h1{
 .bot60{
 	margin-bottom: 60px;
 }
+.font35{
+	font-size: 35px;
+}
 
 h2{
 	font-family: 'flama_condensed_semiboldSBd';
@@ -86,14 +89,14 @@ h2{
 }
 h3{
 	font-family: 'flama_condensed_semiboldSBd';
-	font-size: 18px;
+	font-size: 25px;
 	color: #102B4E;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 h4{
 	font-family: "flama_condensed_semiboldSBd";
-	font-size: 25px;
+	font-size: 18px;
 	color: #102B4E;
 	letter-spacing: 1.3px;
 	text-transform: uppercase;
