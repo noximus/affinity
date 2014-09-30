@@ -190,6 +190,12 @@ h4{
         padding-right: 10px;
         width: 110px;
 	}
+    .subnav {
+     background-color:#e7e7e7;   
+    }
+    .subnav .nav {
+        background-color:#e7e7e7;
+    }
     .hero h1{
         margin-top: 120px;
     }
