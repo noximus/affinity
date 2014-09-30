@@ -4191,7 +4191,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     background-color: transparent;
     font-family: 'flama_condensed_semiboldSBd';
 }
-.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a{
+  background-color: none;
+  color: #102B4E;
+}
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #102B4E;
