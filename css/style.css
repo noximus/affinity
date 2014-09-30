@@ -100,11 +100,12 @@ h4{
 }
 .footer {
     width:100%;
-    height:165px;
+    height:auto;
+    min-height:165px;
     background-color:#bcbdc0;
+    color: #102B4E;
 }
-.footer .form-control{
-    width: 220px;
+.footer .form-inline .form-control{
     background-color:white;
     border:none;
 }
@@ -194,6 +195,9 @@ h4{
     }
     .bred{
         height:70px;
+    }
+    .footer .form-inline .form-control{
+        width: 220px;
     }
 }
 @media (min-width: 1020px){
