@@ -100,14 +100,21 @@ h3{
 	font-family: 'flama_condensed_semiboldSBd';
 	font-size: 25px;
 	color: #102B4E;
-	letter-spacing: 1px;
+	letter-spacing: 1.3px;
 	text-transform: uppercase;
 }
 h4{
 	font-family: "flama_condensed_semiboldSBd";
 	font-size: 18px;
 	color: #102B4E;
-	letter-spacing: 1.3px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+h5{
+	font-family: "flama_condensed_semiboldSBd";
+	font-size: 14px;
+	color: #999;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 .footer {
@@ -185,6 +192,13 @@ h4{
         letter-spacing: 1px;
         text-transform: uppercase;
     }
+    h5{
+        font-family: "flama_condensed_semiboldSBd";
+        font-size: 16px;
+        color: #999;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
     .jumbotron {
       padding: 30px;
       margin-bottom: 0px;
@@ -197,6 +211,7 @@ h4{
         background-color:#e7e7e7; 
         min-height:40px;  
         height:40px;
+        border-radius: 0;
     }
     .subnav .nav {
         background-color:#e7e7e7;

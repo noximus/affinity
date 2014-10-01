@@ -993,10 +993,10 @@ img {
   border-radius: 50%;
 }
 hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 3px solid #e7e7e8;
 }
 .sr-only {
   position: absolute;
@@ -3635,7 +3635,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 .nav {
-  padding-left: 0;
   margin-bottom: 0;
   list-style: none;
   font-family:'flama_condensed_semiboldSBd' ,Helvetica,Arial;
@@ -3963,7 +3962,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
-    margin-left: 30px;
     margin-top:7px;
   }
 }
@@ -4042,7 +4040,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     padding-right:30px;
   }
   .navbar-nav.navbar-right:last-child {
-    margin-right: 15px;
     font-family: 'flama_condensed_semiboldSBd';
   }
 }
