@@ -128,9 +128,8 @@ h5{
     background-color:white;
     border:none;
 }
-.footer .social {
-    margin-top:15px;   
-    margin-right:3px;
+.footer .social {   
+    margin:15px 5px;
 }
 .ptext{
 	font-family: 'flama_semicondensedlight';
@@ -156,10 +155,16 @@ h5{
 	.jumbotron.hero{
 		height: 200px;
 	}
+	.social{
+		margin: 0 5px;
+	}
 }
 @media (min-width: 480px){
 	.jumbotron.hero{
 		height: 250px;
+	}
+	.social{
+		margin: 0 5px;
 	}
 }
 @media (min-width: 768px){
