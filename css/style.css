@@ -230,6 +230,9 @@ h5{
     	text-decoration: none;
     	text-transform: uppercase;
     }
+    .social{
+    	margin: 0 7px;
+    }
 }
 @media (min-width: 1020px){
 	.jumbotron.hero{
