@@ -60,6 +60,9 @@ h1{
 .hero h1{
 	margin-top: 15px;
 }
+.top0{
+	margin-top: 0px;
+}
 .top20{
 	margin-top: 20px;
 }
@@ -68,6 +71,12 @@ h1{
 }
 .top60{
 	margin-top: 60px;
+}
+.top100{
+	margin-top: 100px;
+}
+.bot0{
+	margin-bottom: 0px;
 }
 .bot30{
 	margin-bottom: 30px;
