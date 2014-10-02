@@ -151,6 +151,9 @@ h5{
 	border: none;
 	padding: 0;
 }
+.question{
+	color: black;
+}
 @media (min-width: 320px){
 	.jumbotron.hero{
 		height: 200px;
