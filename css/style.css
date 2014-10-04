@@ -154,6 +154,19 @@ h5{
 .question{
 	color: black;
 }
+.btn-black{
+	font-family: "flama_condensed_semiboldSBd";
+	border: 3.5px solid black;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+	padding: 2px 4px;
+	line-height: 1;
+	letter-spacing: 1.3px;
+  	text-transform:uppercase;
+  	border-radius: 0;
+  	text-align: center;
+}
 @media (min-width: 320px){
 	.jumbotron.hero{
 		height: 200px;
