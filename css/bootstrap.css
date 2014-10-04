@@ -943,12 +943,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #102B4E;
+  color: black;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #102B4E;
+  color: black;
   text-decoration: underline;
 }
 a:focus {
@@ -1031,7 +1031,7 @@ h6,
 .h6 {
   font-family: 'flama_condensed_semiboldSBd';
   line-height: 1.1;
-  color: #102B4E;
+  color: black;
   text-transform:uppercase;
 }
 h1 small,
@@ -2909,7 +2909,7 @@ fieldset[disabled] .btn-primary.active {
   padding: 3px 12px;
   letter-spacing: 1.3px;
   color: #fff;
-  background-color: #102B4E;
+  background-color: black;
 }
 .btn-success:hover,
 .btn-success:focus,
@@ -2921,7 +2921,7 @@ fieldset[disabled] .btn-primary.active {
     padding: 3px 12px;
     letter-spacing: 1.3px;
     color: #fff;
-    background-color: #102B4E;
+    background-color: black;
 }
 .btn-success:active,
 .btn-success.active,
@@ -3228,7 +3228,7 @@ a.dropdown-toggle {
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #102B4E;
+  color: black;
   text-decoration: none;
   background-color: #f5f5f5;
 }
@@ -3243,7 +3243,7 @@ a.dropdown-toggle {
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
-  color: #102B4E;
+  color: black;
 }
 .dropdown-menu > .disabled > a:hover,
 .dropdown-menu > .disabled > a:focus {
@@ -3762,7 +3762,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding:11px 30px 12px 30px;
   font-family: 'flama_semicondensedlight';
   font-size: 12px;
-  color: #102B4E; 
+  color: black; 
 }
 .nav-pills > li + li {
   margin-left: 2px;
@@ -4173,7 +4173,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #102B4E;
+  color: black;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -4184,17 +4184,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #102B4E;
+    color: black;
     background-color: transparent;
     font-family: 'flama_condensed_semiboldSBd';
 }
 .navbar-default .navbar-nav > .active > a{
   background-color: none;
-  color: #102B4E;
+  color: black;
 }
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #102B4E;
+  color: black;
   background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .disabled > a,
@@ -4220,7 +4220,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #102B4E;
+  color: black;
   background-color: #e7e7e7;
 }
 @media (max-width: 767px) {
@@ -4229,13 +4229,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #102B4E;
+    color: black;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #102B4E;
+    color: black;
     background-color: #e7e7e7;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -4246,17 +4246,17 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default .navbar-link {
-  color: #102B4E;
+  color: black;
 }
 .navbar-default .navbar-link:hover {
-  color: #102B4E;
+  color: black;
 }
 .navbar-default .btn-link {
-  color: #102B4E;
+  color: black;
 }
 .navbar-default .btn-link:hover,
 .navbar-default .btn-link:focus {
-  color: #102B4E;
+  color: black;
 }
 .navbar-default .btn-link[disabled]:hover,
 fieldset[disabled] .navbar-default .btn-link:hover,
@@ -4284,7 +4284,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #102B4E;
+  color: black;
   background-color: transparent;
 }
 .navbar-inverse .navbar-nav > .active > a,
