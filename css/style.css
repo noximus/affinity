@@ -135,7 +135,7 @@ h5{
 	font-family: 'flama_semicondensedlight';
 	color: grey;
 	font-size: 16px;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 }
 .bred {
     background: black;
@@ -166,6 +166,12 @@ h5{
   	text-transform:uppercase;
   	border-radius: 0;
   	text-align: center;
+}
+.noStyle{
+	list-style: none;
+}
+.noPad{
+	padding: 0;
 }
 @media (min-width: 320px){
 	.jumbotron.hero{
