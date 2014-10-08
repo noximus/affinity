@@ -60,7 +60,7 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin: .67em 0;
+  margin: 30px 0;
   font-size: 2em;
 }
 mark {
@@ -5940,6 +5940,7 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 15%;
+  width: 100%;
   bottom: 20px;
   left: 15%;
   z-index: 10;
@@ -5972,8 +5973,8 @@ button.close {
   }
   .carousel-caption {
     right: 20%;
-    left: 20%;
-    padding-bottom: 30px;
+    left: 4%;
+    padding-bottom: 92px;
   }
   .carousel-indicators {
     bottom: 20px;

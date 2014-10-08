@@ -23,12 +23,15 @@
   margin-bottom: 0px;
   background-color: #eee;
 }
-.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3{
+.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 	width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	border-radius: 0;
 
+}
+.hero1car{
+	background-image: url('../img/herobike.jpg');
 }
 .jumbotron.hero{
     background-image: url('../img/herobike.jpg');
@@ -189,19 +192,25 @@ h5{
 	margin: 10px;
 }
 @media (min-width: 320px){
-	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3{
+	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 200px;
 	}
 	.social{
 		margin: 0 5px;
 	}
+	h2{
+		margin: 0;
+	}
 }
 @media (min-width: 480px){
-	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3{
+	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 250px;
 	}
 	.social{
 		margin: 0 5px;
+	}
+	h2{
+		margin: 0;
 	}
 }
 @media (min-width: 768px){
@@ -218,7 +227,8 @@ h5{
         color: white;
         letter-spacing: 2px;
         text-transform: uppercase;
-        margin-top: 20px;
+        /*margin-top: 20px;*/
+        margin: 0;
     }
     h3{
         font-family: 'flama_condensed_semiboldSBd';
@@ -246,7 +256,7 @@ h5{
       margin-bottom: 0px;
       background-color: #eee;
     }
-    .jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3{
+    .jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 513px;
 	}
     .subnav {
@@ -277,12 +287,12 @@ h5{
     }
 }
 @media (min-width: 1020px){
-	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3{
+	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 513px;
 	}
 }
 @media (min-width: 1200px){
-	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3{
+	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 513px;
 	}
 }
