@@ -80,6 +80,9 @@ h1{
 .top20{
 	margin-top: 20px;
 }
+.bot20{
+	margin-bottom: 20px;
+}
 .top30{
 	margin-top: 30px;
 }
@@ -203,6 +206,17 @@ h5{
 	}
 }
 @media (min-width: 480px){
+	.carousel-caption {
+	    right: 20%;
+	    left: 1.5%;
+    	padding-bottom: 66px;
+	}
+	.jumbotron{
+		margin-top: 30px;
+	}
+	.jumbotron.hero1{
+		margin-top: 0;
+	}
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 250px;
 	}
@@ -212,14 +226,23 @@ h5{
 	h2{
 		margin: 0;
 	}
+	.btn-black{
+		margin-bottom: 0;
+	}
 }
 @media (min-width: 768px){
+    .carousel-caption {
+	    right: 20%;
+	    left: -6%;
+    	padding-bottom: 164px;
+	}
     h1{
-	font-family: 'flama_condensed_semiboldSBd';
-	font-size: 55px;
-	color: black;
-	letter-spacing: 3px;
-	text-transform: uppercase;
+		font-family: 'flama_condensed_semiboldSBd';
+		font-size: 55px;
+		color: black;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		font-weight: normal;
     }
     h2{
         font-family: 'flama_condensed_semiboldSBd';
@@ -229,6 +252,7 @@ h5{
         text-transform: uppercase;
         /*margin-top: 20px;*/
         margin: 0;
+        font-weight: lighter;
     }
     h3{
         font-family: 'flama_condensed_semiboldSBd';
@@ -290,6 +314,17 @@ h5{
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 513px;
 	}
+	.carousel-caption {
+    right: 20%;
+    left: -2%;
+    padding-bottom: 164px;
+	}
+    h1{
+    	font-weight: normal;
+    }
+    h2{
+    	font-weight: lighter;
+    }
 }
 @media (min-width: 1200px){
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
