@@ -135,6 +135,12 @@ h5{
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
+h6{
+	font-family: 'flama_semicondensedlight';
+	font-size: 16px;
+	color: black;
+	/*letter-spacing: 1px;*/
+}
 .footer {
     width:100%;
     height:auto;
