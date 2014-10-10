@@ -194,6 +194,12 @@ h5{
 .mar10{
 	margin: 10px;
 }
+.addcartbtn{
+	border: none;
+	background: black;
+	color: white;
+	padding: 6px 67px;
+}
 @media (min-width: 320px){
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 200px;
