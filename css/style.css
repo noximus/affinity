@@ -200,11 +200,18 @@ h6{
 .mar10{
 	margin: 10px;
 }
+.mar15{
+	margin: 15px;
+}
 .addcartbtn{
 	border: none;
 	background: black;
 	color: white;
 	padding: 6px 67px;
+}
+.inline{
+	display: inline;
+	float: left;
 }
 @media (min-width: 320px){
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
@@ -321,6 +328,33 @@ h6{
     .social{
     	margin: 0 7px;
     }
+    .subtotal{
+    	margin-bottom: 30px;
+    	margin-left: 165px;
+    }
+    .btn-update{
+    	margin-right: 30px;
+    	margin-left: 100px;
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
+	.btn-checkout{
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: white;
+		background: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
 }
 @media (min-width: 1020px){
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
@@ -343,6 +377,32 @@ h6{
     .btn-black{
     	margin-bottom: 60px;
     }
+    .subtotal{
+    	margin-bottom: 30px;
+    	margin-left: 165px;
+    }
+    .btn-update{
+    	margin-right: 30px;
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
+	.btn-checkout{
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: white;
+		background: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
 }
 @media (min-width: 1200px){
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
