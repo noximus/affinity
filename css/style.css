@@ -213,6 +213,9 @@ h6{
 	display: inline;
 	float: left;
 }
+.itemName{
+	font-size: 25px;
+}
 @media (min-width: 320px){
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 200px;
@@ -328,13 +331,18 @@ h6{
     .social{
     	margin: 0 7px;
     }
-    .subtotal{
+    .subtotalAmt{
     	margin-bottom: 30px;
-    	margin-left: 165px;
+    	margin-left: 60px;
+    	display: inline-block;
+    }
+    .subtotal{
+    	margin-left: 50px;
+    	display: inline-block;
     }
     .btn-update{
     	margin-right: 30px;
-    	margin-left: 100px;
+    	margin-left: 90px;
     	margin-bottom: 30px;
 		border: 3px solid black;
 		text-transform: uppercase;
@@ -354,6 +362,11 @@ h6{
 		background: black;
 		font-size: 16px;
 		letter-spacing: .5px;
+	}
+	.itemName{
+		font-size: 18px;
+		font-weight: bolder;
+		letter-spacing: 1px;
 	}
 }
 @media (min-width: 1020px){
@@ -379,7 +392,11 @@ h6{
     }
     .subtotal{
     	margin-bottom: 30px;
-    	margin-left: 165px;
+    	margin-left: 50px;
+    }
+    .subtotalAmt{
+    	margin-bottom: 30px;
+    	margin-left: 117px;
     }
     .btn-update{
     	margin-right: 30px;
