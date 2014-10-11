@@ -247,9 +247,45 @@ h6{
 	}
 	h2{
 		margin: 0;
+		font-size: 20px;
+	}
+	h5{
+		font-size: 25px;
 	}
 	.btn-black{
 		margin-bottom: 0;
+	}
+	.subtotalAmt{
+    	margin-bottom: 30px;
+    	margin-left: 60px;
+    	display: inline-block;
+    }
+    .subtotal{
+    	margin-left: 50px;
+    	display: inline-block;
+    }
+    .btn-update{
+    	margin-right: 30px;
+    	margin-left: 81px;
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
+	.btn-checkout{
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: white;
+		background: black;
+		font-size: 16px;
+		letter-spacing: .5px;
 	}
 }
 @media (min-width: 768px){
