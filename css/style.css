@@ -216,6 +216,37 @@ h6{
 .itemName{
 	font-size: 25px;
 }
+.btn-update{
+	margin-right: 30px;
+	margin-left: 0px;
+	margin-bottom: 30px;
+	border: 3px solid black;
+	text-transform: uppercase;
+	padding: 2px 9px;
+	font-family: "flama_condensed_semiboldSBd";
+	color: black;
+	font-size: 16px;
+	letter-spacing: .5px;
+}
+.btn-checkout{
+	margin-bottom: 30px;
+	border: 3px solid black;
+	text-transform: uppercase;
+	padding: 2px 9px;
+	font-family: "flama_condensed_semiboldSBd";
+	color: white;
+	background: black;
+	font-size: 16px;
+	letter-spacing: .5px;
+}
+.subtotal{
+	font-size: 30px;
+	display: inline-block;
+}
+.subtotalAmt{
+	font-size: 30px;
+	display: inline-block;
+}
 @media (min-width: 320px){
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 200px;
