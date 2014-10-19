@@ -288,11 +288,11 @@ h6{
 	}
 	.subtotalAmt{
     	margin-bottom: 30px;
-    	margin-left: 54px;
+    	/*margin-left: 54px;*/
     	display: inline-block;
     }
     .subtotal{
-    	margin-left: -7px;
+    	/*margin-left: -7px;*/
     	display: inline-block;
     }
     .btn-update{
@@ -400,12 +400,12 @@ h6{
     }
     .subtotalAmt{
     	margin-bottom: 30px;
-    	margin-left: 60px;
+    	/*margin-left: 60px;*/
     	display: inline-block;
     	font-size: 16px;
     }
     .subtotal{
-    	margin-left: 50px;
+    	/*margin-left: 50px;*/
     	display: inline-block;
     	font-size: 16px;
     }
@@ -461,12 +461,12 @@ h6{
     }
     .subtotal{
     	margin-bottom: 30px;
-    	margin-left: 68px;
+    	/*margin-left: 68px;*/
     	font-size: 16px;
     }
     .subtotalAmt{
     	margin-bottom: 30px;
-    	margin-left: 98px;
+    	/*margin-left: 98px;*/
     	font-size: 16px;
     }
     .btn-update{
