@@ -21,7 +21,6 @@
 .jumbotron {
   padding: 15px;
   margin-bottom: 0px;
-  background-color: #eee;
 }
 .jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 	width: 100%;
@@ -41,9 +40,11 @@
 }
 .jumbotron.hero2{
 	background-image: url('../img/tipsF.jpg');
+	margin-top: 0;
 }
 .jumbotron.hero3{
 	background-image: url('../img/processF.jpg');
+	margin-top: 0;
 
 }
 /*.jumbotron.featured{
@@ -247,6 +248,9 @@ h6{
 	font-size: 30px;
 	display: inline-block;
 }
+.eee{
+	background-color: #eee;
+}
 @media (min-width: 320px){
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 200px;
@@ -367,7 +371,6 @@ h6{
     .jumbotron {
       padding: 30px;
       margin-bottom: 0px;
-      background-color: #eee;
     }
     .jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 513px;

@@ -1431,17 +1431,17 @@ pre code {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 100%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 970px;
+    width: 992px;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 970px;
+    width: 1200px;
   }
 }
 .container-fluid {
@@ -4630,7 +4630,6 @@ a.list-group-item.active > .badge,
 .jumbotron {
   padding: 30px;
   margin-bottom: 0px;
-  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
