@@ -265,6 +265,19 @@ h6{
 .jumbotron.featuredProd h3{
 	margin-top: 60px;
 }
+.noPadLeft{
+	padding-left: 0px;
+}
+.noPadRight{
+	padding-right: 0px;
+}
+.noLRmargin{
+	margin-right: 0;
+	margin-left: 0;
+}
+.width100{
+	width: 100%;
+}
 @media (min-width: 320px){
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 200px;
