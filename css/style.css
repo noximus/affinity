@@ -19,7 +19,7 @@
 	border: none;
 }
 .jumbotron {
-  padding: 15px;
+  padding: 30px;
   margin-bottom: 0px;
 }
 .jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
@@ -251,6 +251,20 @@ h6{
 .eee{
 	background-color: #eee;
 }
+.text1{
+	background-color: #eee;
+	padding: 60px;
+}
+.text2{
+	background-color: #eee;
+	padding: 30px;
+}
+.jumbotron.featuredProd{
+	padding: 0px;
+}
+.jumbotron.featuredProd h3{
+	margin-top: 60px;
+}
 @media (min-width: 320px){
 	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 200px;
@@ -267,9 +281,6 @@ h6{
 	    right: 20%;
 	    left: 1.5%;
     	padding-bottom: 66px;
-	}
-	.jumbotron{
-		margin-top: 30px;
 	}
 	.jumbotron.hero1{
 		margin-top: 0;
@@ -369,8 +380,9 @@ h6{
         text-transform: uppercase;
     }
     .jumbotron {
-      padding: 30px;
+      padding: 60px;
       margin-bottom: 0px;
+      margin-top: 0px;
     }
     .jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 513px;
@@ -448,6 +460,20 @@ h6{
 	.jumbotron{
 		margin-top: 0;
 	}
+	.text1{
+		background-color: #eee;
+		padding: 60px;
+	}
+	.text2{
+		background-color: #eee;
+		padding: 30px;
+	}
+	.jumbotron.featuredProd{
+		padding: 0px;
+	}
+	.jumbotron.featuredProd h3{
+		margin-top: 60px;
+	}
 	.carousel-caption {
     right: 20%;
     left: -2%;
@@ -460,7 +486,7 @@ h6{
     	font-weight: lighter;
     }
     .btn-black{
-    	margin-bottom: 60px;
+    	margin-bottom: 30px;
     }
     .subtotal{
     	margin-bottom: 30px;
