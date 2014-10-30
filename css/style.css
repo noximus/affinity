@@ -7,6 +7,9 @@
 	margin-bottom: 0px;
 	min-height: 70px;
 }
+body{
+	padding-top: 70px;
+}
 .navbar-brand{
 	height: 70px;
 	padding: 17px 30px;
@@ -348,6 +351,9 @@ h6{
 	}
 }
 @media (min-width: 768px){
+    body{
+    	padding-top: 80px;
+    }
     .carousel-caption {
 	    right: 20%;
 	    left: -6%;
@@ -400,11 +406,16 @@ h6{
     .jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
 		height: 513px;
 	}
+	/*.navbar{
+		z-index: 10000;
+	}*/
     .subnav {
         background-color:#e7e7e7; 
         min-height:40px;  
         height:40px;
         border-radius: 0;
+        margin-top: 80px;
+        z-index: 1000;
     }
     .subnav .nav {
         background-color:#e7e7e7;
