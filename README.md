@@ -1,1 +1,1 @@
-Wordpress theme in use id default
+Wordpress theme in use is default
