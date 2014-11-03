@@ -1,0 +1,127 @@
+/***************VERTICAL**********************/
+
+/*****ALL*****/
+
+
+
+#vertical-nav ul {
+
+    list-style-type: none; /* get rid of the bullets */
+
+    padding:0;             /* no padding */
+
+    margin:0;              /* no margin for IE either */
+
+}
+
+
+
+#vertical-nav ul li {
+
+    margin: 0;
+
+    padding: 0;
+
+    display:block;
+
+    margin-top: 1px; /* lines */
+
+}
+
+
+
+#vertical-nav ul ul li a,#vertical-nav ul li{
+
+    background-color: #FFFFFF;
+
+}
+
+#vertical-nav ul li a {
+
+    display: block;
+
+    padding: 3px 3px 3px 23px;
+
+    margin:0;
+
+    text-decoration: none;
+
+    height:15px;           /* hint for IE, alternatively remove whitespace from HTML */
+
+    background-color: #CCCCCC;
+
+}
+
+#vertical-nav ul li .open, #vertical-nav .activesubsub, #vertical-nav .subopen {
+
+    font-weight: bolder;
+
+    text-decoration: underline;
+
+    color:#000000
+
+}
+
+#vertical-nav .final{
+
+background-color:#ECECEC;
+
+}
+
+
+
+#vertical-nav ul ul li a {
+
+    margin-left: 20px;
+
+}
+
+
+
+#vertical-nav ul ul ul li a {
+
+  margin-left: 40px;     /* indent level 2 */
+
+}
+
+
+
+#vertical-nav a {
+
+  color:#999999;
+
+}
+
+#vertical-nav a:hover {
+
+  color:#666666;
+
+}
+
+#vertical-nav ul li ul li a {
+
+    border-top-width: thin;
+
+    border-bottom-width: thin;
+
+    border-top-style: dotted;
+
+    border-bottom-style: dotted;
+
+    border-top-color: #CCCCCC;
+
+    border-bottom-color: #CCCCCC;
+
+    margin-bottom:0px;
+
+    margin-top:0px;
+
+}
+
+#vertical-nav ul li ul li {
+
+    margin-bottom:0px;
+
+    margin-top:0px;
+
+}
