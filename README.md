@@ -5,3 +5,6 @@ Magento Theme placement
 
   Directory 1: app/design/frontend/default/default/ — This directory contains the layout, translation (locale) and template materials.
   Directory 2: skin/frontend/default/default/ — This directory contains the images, CSS and block-specific Javascripts.
+
+Where to find layouts
+In order to access the layout files, go to app/design/frontend/your_interface/your_theme/layout/.
