@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/********************** Tabs */
+.tabs {
+	overflow:hidden;
+	zoom: 1;
+	height: 39px;
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	margin-left: 0px;
+	background-image: url(../images/line.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+.tabs li {
+	float:left;
+	font-size:11px;
+	line-height:40px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #404040;
+	text-align: center;
+	height: 40px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #d6d6d6;
+	width: 170px;
+	
+}
+.tabs li.first { }
+.tabs li.last {
+	border-right:none;
+}
+.tabs a {
+	display:block;
+	color:#404040;
+	text-decoration: none;
+	height: 39px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d6d6d6;
+}
+.tabs a:hover {
+	text-decoration:none;
+	color:#666;
+}
+.tabs li.active a,
+.tabs li.active a:hover {
+	font-weight:bold;
+	color:#00aeef;
+	border-bottom:none;
+	background-color: #FFF;
+}
+
+#product_tabs_tags_tabbed_contents.input-box input	{ width: 300px; }
+#product_tabs_tags_tabbed_contents .input-box	{ width: 300px; float:left; margin-right: 10px;}
+#product_tabs_related_tabbed_contents li	{ float:left; margin-right: 10px;}
+#product_tabs_related_tabbed_contents ol	{ clear: both;}
+.product-collateral:after { content:"."; display:block; clear:both; font-size:0; line-height:0; height:0; overflow:hidden; zoom: 1}
