@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<Banner 
+	bannerWidth="560"
+	bannerHeight="380"
+	bannerBackgroundColor=""
+
+	textSize=""
+	textColor=""
+	textAreaWidth=""
+	textLineSpacing="0"	
+	textLetterSpacing=""	
+	textMarginLeft=""
+	textMarginBottom=""
+	textBackgroundBlur=""
+	textBackgroundColor=""
+	textBackgroundTransparency=""	
+		
+	transitionType="2"
+	transitionRandomEffects="no"
+	transitionDelayTimeFixed="3" 
+	transitionDelayTimePerWord="0"
+	transitionSpeed="8"
+	transitionBlur="yes"		
+	
+	showTimerClock="no"
+	showNextButton="no"
+	showBackButton="no"
+	showNumberButtons="no"
+	showNumberButtonsAlways="no"
+	showNumberButtonsHorizontal="no"
+	showNumberButtonsAscending="no"
+	showPlayPauseOnTimer="no"
+	
+	alignButtonsLeft="no"
+	alignTextTop="no"
+	
+	autoPlay="yes"	
+	imageResizeToFit="yes"
+	imageRandomizeOrder="no"
+	
+	>
+	
+	<item buttonLabel=""
+		image="photos/1.jpg" 
+		link="/frames/kissena1/"
+		target=""
+		delay=""
+		textBlend="no">
+	</item>
+
+	<item buttonLabel=""
+		image="photos/2.jpg"
+		link="/frames/metropolitan/"
+		target="_self"
+		delay=""
+		textBlend="no">
+	</item>
+	
+	<item buttonLabel=""
+		image="photos/3.jpg" 
+		link="/gallery/takuya-sakamoto-portraits-2/"
+		target="_self"
+		delay=""
+		textBlend="no">
+	</item>
+	
+	<item buttonLabel=""
+		image="photos/4.jpg" 
+		link="/frames/bk212/"
+		target="_self"
+		delay=""
+		textBlend="no">
+	</item>
+	
+	<item buttonLabel=""
+		image="photos/5.jpg" 
+		link="/frames/bk212/"
+		target="_self"
+		delay=""
+		textBlend="no">
+	</item>
+	
+	
+	
+
+	
+	
+	
+</Banner>
+
