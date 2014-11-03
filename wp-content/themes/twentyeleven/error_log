@@ -1,0 +1,14 @@
+[16-Aug-2013 20:01:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/tag.php on line 10
+[27-Aug-2013 10:25:58 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/index.php on line 15
+[03-Sep-2013 01:15:43 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[28-Oct-2013 09:17:32 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/tag.php on line 10
+[26-Dec-2013 10:59:03 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[24-May-2014 01:10:02 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/index.php on line 15
+[24-May-2014 10:54:36 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/index.php on line 15
+[24-May-2014 21:29:37 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/index.php on line 15
+[29-May-2014 09:24:15 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/tag.php on line 10
+[29-May-2014 14:25:25 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/tag.php on line 10
+[29-May-2014 17:45:16 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/tag.php on line 10
+[30-May-2014 05:30:35 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[30-May-2014 10:28:14 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/404.php on line 10
+[30-May-2014 14:21:58 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/twentyeleven/404.php on line 10

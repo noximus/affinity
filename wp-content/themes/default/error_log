@@ -1,0 +1,24 @@
+[23-Jul-2010 08:35:20] PHP Fatal error:  Call to undefined function register_sidebar() in /home/affinity/public_html/wp-content/themes/default/functions.php on line 11
+[23-Jul-2010 08:35:33] PHP Fatal error:  Call to undefined function language_attributes() in /home/affinity/public_html/wp-content/themes/default/header_home.php on line 2
+[21-Dec-2011 06:36:52] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[21-Dec-2011 06:37:02] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/search.php on line 1
+[21-Dec-2011 06:37:03] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[23-Jan-2012 17:42:26] PHP Fatal error:  Call to undefined function register_sidebar() in /home/affinity/public_html/wp-content/themes/default/functions.php on line 12
+[23-Jan-2012 17:42:41] PHP Fatal error:  Call to undefined function register_sidebar() in /home/affinity/public_html/wp-content/themes/default/functions.php on line 12
+[24-Jan-2012 00:54:33] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[24-Jan-2012 00:54:33] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[10-Feb-2012 07:14:09] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[10-Feb-2012 07:14:09] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[08-Mar-2012 10:14:08] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[08-Mar-2012 10:14:10] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[08-Mar-2012 10:14:42] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[08-Mar-2012 10:14:55] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[08-Mar-2012 10:15:01] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[08-Mar-2012 10:19:53] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[08-Mar-2012 10:24:36] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[08-Mar-2012 10:36:47] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[08-Mar-2012 10:38:43] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[23-Oct-2012 15:26:18 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[15-Jan-2013 12:57:11 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
+[22-Jan-2014 10:17:49 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/404.php on line 1
+[19-Jun-2014 13:52:47 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/affinity/public_html/wp-content/themes/default/index.php on line 1
