@@ -1,0 +1,69 @@
+<div class="vertical-nav-container box base-mini">
+
+    <div id="vertical-nav">
+
+        <div class="head">
+
+            <?php echo $this->__('<h2><span class="black">Home / </span>Store</h2>') ?>
+
+        </div>
+
+        <ul id="nav_vert">
+
+            <?php foreach ($this->getStoreCategories() as $_category): ?>
+
+            <?php $open = $this->isCategoryActive($_category); ?>
+
+            <?php $potential = $_category->hasChildren(); ?>
+
+            <li><a href="<?php echo $this->getCategoryUrl($_category); ?>"<?php if($open) { echo ' class="open"'; } ?><?php if($potential) { echo ' class="potential"'; } ?> ><?php if($potential&&$open) { echo 'v '; } elseif($potential) { echo '> '; }else{ echo '  '; }?><?php echo $_category->getName();?></a>
+
+                <?php if ($open && $potential): ?>
+
+                <ul>
+
+                    <?php foreach ($_category->getChildren() as $subcategory): ?>
+
+                    <?php $subCat = Mage::getModel('catalog/category')->load($subcategory); ?>
+
+                    <?php $open = $this->isCategoryActive($subCat); ?>
+
+                    <?php $potential = $subCat->hasChildren(); ?>
+
+                    <li><a href="<?php echo $this->getCategoryUrl($subCat); ?>"<?php if($open) { echo ' class="subopen"'; } ?><?php if($potential) { echo ' class="potential"'; } ?><?php if(!$potential&&$open) { echo ' class="final"'; } ?> ><?php if($potential&&$open) { echo 'v '; } elseif($potential) { echo '> '; }?><?php echo $subCat->getName(); ?></a>
+
+                        <?php if ($open && $potential): ?>
+
+                        <ul>
+
+                            <?php foreach ($subcategory->getChildren() as $subsubcategory): ?>
+
+                            <?php $subsubCat = Mage::getModel('catalog/category')->load($subsubcategory); ?>
+
+                            <?php $open = $this->isCategoryActive($subsubCat) ?>
+
+                            <li><a href="<?php echo $this->getCategoryUrl($subsubCat); ?>" <?php if($open) { echo ' class="final"'; } ?>><?php echo $subsubCat->getName(); ?></a></li>
+
+                            <?php endforeach; ?>
+
+                        </ul>
+
+                        <?php endif; ?>
+
+                    </li>
+
+                    <?php endforeach; ?>
+
+                </ul>
+
+                <?php endif; ?>
+
+            </li>
+
+            <?php endforeach ?>
+
+        </ul>
+
+    </div>
+
+</div>

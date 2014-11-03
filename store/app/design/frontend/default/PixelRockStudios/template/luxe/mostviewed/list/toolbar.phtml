@@ -1,0 +1,28 @@
+<?php
+/**
+ * Luxe
+ * MostViewed module
+ *
+ * @category   design_default
+ * @package    Luxe_MostViewed
+ */
+?>
+<?php
+/**
+ * Product list toolbar
+ *
+ * @see Luxe_MostViewed_Block_List_Toolbar
+ */
+?>
+<?php if ($this->getParentBlock()->getBlockTitle()) {?>
+<table class="pager" cellspacing="0">
+    <tr>
+        <td>
+            <strong><?php echo $this->__($this->getParentBlock()->getBlockTitle()) ?></strong>
+        </td>
+        <td class="a-right">
+            &nbsp;
+        </td>
+    </tr>
+</table>
+<?php } ?>

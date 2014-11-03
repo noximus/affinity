@@ -1,0 +1,4 @@
+[23-Apr-2010 00:59:24] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 306961 bytes) in /home/affinity/public_html/store/js/index.php on line 130
+[14-Jun-2010 10:27:20] PHP Fatal error:  Out of memory (allocated 524288) (tried to allocate 267318 bytes) in /home/affinity/public_html/store/js/index.php on line 106
+[21-Aug-2010 23:09:06] PHP Warning:  Unknown: failed to open stream: No such file or directory in Unknown on line 0
+[21-Aug-2010 23:09:06] PHP Fatal error:  Unknown: Failed opening required '/var/tmp/linux' (include_path='.:/usr/local/lsws/lsphp5/lib/php') in Unknown on line 0
