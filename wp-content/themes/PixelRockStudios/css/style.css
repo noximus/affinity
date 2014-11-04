@@ -1,0 +1,558 @@
+.nav{
+	/*height: 70px;*/
+	background: white;
+}
+.navbar{
+	background: white;
+	margin-bottom: 0px;
+	min-height: 70px;
+}
+body{
+	padding-top: 70px;
+}
+.navbar-brand{
+	height: 70px;
+	padding: 17px 30px;
+}
+.navbar-brand img{
+	width: 141px;
+	/*this is the shopping cart*/
+}
+.navbar-default{
+	border: none;
+}
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 0px;
+}
+.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 0;
+
+}
+.hero1car{
+	background-image: url('../img/herobike.jpg');
+}
+.jumbotron.hero{
+    background-image: url('../img/herobike.jpg');
+}
+.jumbotron.hero1{
+	background-image: url('../img/teamF.jpg');
+}
+.jumbotron.hero2{
+	background-image: url('../img/tipsF.jpg');
+	margin-top: 0;
+}
+.jumbotron.hero3{
+	background-image: url('../img/processF.jpg');
+	margin-top: 0;
+
+}
+/*.jumbotron.featured{
+	background-image: url("../img/kissenacomplete.jpg");
+}*/
+.dropdown:active{
+	background-color: #E6E7E8;
+}
+.dropdown-toggle{
+	font-family: 'flama_condensed_semiboldSBd';
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.dropdown-menu{
+	font-family: 'flama_semicondensedlight';
+}
+.cart{
+	/*margin-left: 60px;*/
+}
+
+h1{
+	font-family: 'flama_condensed_semiboldSBd';
+	font-size: 25px;
+	color: black;
+	letter-spacing: 1.3px;
+	text-transform: uppercase;
+}
+.hero h1{
+	margin-top: 15px;
+}
+.top0{
+	margin-top: 0px;
+}
+.top20{
+	margin-top: 20px;
+}
+.bot20{
+	margin-bottom: 20px;
+}
+.top30{
+	margin-top: 30px;
+}
+.top60{
+	margin-top: 60px;
+}
+.top100{
+	margin-top: 100px;
+}
+.bot0{
+	margin-bottom: 0px;
+}
+.bot30{
+	margin-bottom: 30px;
+}
+.bot60{
+	margin-bottom: 60px;
+}
+.font35{
+	font-size: 35px;
+}
+
+h2{
+	font-family: 'flama_condensed_semiboldSBd';
+	font-size: 18px;
+	color: white;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+h3{
+	font-family: 'flama_condensed_semiboldSBd';
+	font-size: 25px;
+	color: black;
+	letter-spacing: 1.3px;
+	text-transform: uppercase;
+	margin: 0;
+}
+h4{
+	font-family: "flama_condensed_semiboldSBd";
+	font-size: 18px;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+h5{
+	font-family: "flama_condensed_semiboldSBd";
+	font-size: 14px;
+	color: black;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+h6{
+	font-family: 'flama_semicondensedlight';
+	font-size: 16px;
+	color: black;
+	/*letter-spacing: 1px;*/
+}
+.footer {
+    width:100%;
+    height:auto;
+    min-height:165px;
+    background-color:#bcbdc0;
+    color: black;
+}
+.footer .form-inline .form-control{
+    background-color:white;
+    border:none;
+}
+.footer .social {   
+    margin:15px 5px;
+}
+.ptext{
+	font-family: 'flama_semicondensedlight';
+	color: grey;
+	font-size: 14px;
+	letter-spacing: .5px;
+}
+.bred {
+    background: black;
+    color: white;
+    text-align: center;
+    height: 58px;
+}
+.list-group{
+	width: 190px;
+	float: left;
+}
+.list-group-item{
+	border: none;
+	padding: 0;
+}
+.question{
+	color: black;
+}
+.btn-black{
+	font-family: "flama_condensed_semiboldSBd";
+	border: 3.5px solid black;
+	font-size: 25px;
+	color: black;
+	font-weight: bold;
+	padding: 2px 4px;
+	line-height: 1;
+	letter-spacing: 1.3px;
+  	text-transform:uppercase;
+  	border-radius: 0;
+  	text-align: center;
+}
+.noStyle{
+	list-style: none;
+}
+.noPad{
+	padding: 0;
+}
+.mar10{
+	margin: 10px;
+}
+.mar15{
+	margin: 15px;
+}
+.addcartbtn{
+	border: none;
+	background: black;
+	color: white;
+	padding: 6px 67px;
+}
+.inline{
+	display: inline;
+	float: left;
+}
+.itemName{
+	font-size: 25px;
+}
+.btn-update{
+	margin-right: 30px;
+	margin-left: 0px;
+	margin-bottom: 30px;
+	border: 3px solid black;
+	text-transform: uppercase;
+	padding: 2px 9px;
+	font-family: "flama_condensed_semiboldSBd";
+	color: black;
+	font-size: 16px;
+	letter-spacing: .5px;
+}
+.btn-checkout{
+	margin-bottom: 30px;
+	border: 3px solid black;
+	text-transform: uppercase;
+	padding: 2px 9px;
+	font-family: "flama_condensed_semiboldSBd";
+	color: white;
+	background: black;
+	font-size: 16px;
+	letter-spacing: .5px;
+}
+.subtotal{
+	font-size: 30px;
+	display: inline-block;
+}
+.subtotalAmt{
+	font-size: 30px;
+	display: inline-block;
+}
+.eee{
+	background-color: #eee;
+}
+.text1{
+	background-color: #eee;
+	padding: 60px;
+}
+.text2{
+	background-color: #eee;
+	padding: 30px;
+}
+.jumbotron.featuredProd{
+	padding: 0px;
+}
+.jumbotron.featuredProd h3{
+	margin-top: 60px;
+}
+.noPadLeft{
+	padding-left: 0px;
+}
+.noPadRight{
+	padding-right: 0px;
+}
+.noLRmargin{
+	margin-right: 0;
+	margin-left: 0;
+}
+.width100{
+	width: 100%;
+}
+@media (min-width: 320px){
+	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
+		height: 200px;
+	}
+	.social{
+		margin: 0 5px;
+	}
+	h2{
+		margin: 0;
+	}
+}
+@media (min-width: 480px){
+	.carousel-caption {
+	    right: 20%;
+	    left: 1.5%;
+    	padding-bottom: 66px;
+	}
+	.jumbotron.hero1{
+		margin-top: 0;
+	}
+	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
+		height: 250px;
+	}
+	.social{
+		margin: 0 5px;
+	}
+	h2{
+		margin: 0;
+		font-size: 20px;
+	}
+	h5{
+		font-size: 25px;
+	}
+	.btn-black{
+		margin-bottom: 0;
+	}
+	.subtotalAmt{
+    	margin-bottom: 30px;
+    	/*margin-left: 54px;*/
+    	display: inline-block;
+    }
+    .subtotal{
+    	/*margin-left: -7px;*/
+    	display: inline-block;
+    }
+    .btn-update{
+    	margin-right: 30px;
+    	margin-left: 0px;
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
+	.btn-checkout{
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: white;
+		background: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
+}
+@media (min-width: 768px){
+    body{
+    	padding-top: 80px;
+    }
+    .carousel-caption {
+	    right: 20%;
+	    left: -6%;
+    	padding-bottom: 164px;
+	}
+    h1{
+		font-family: 'flama_condensed_semiboldSBd';
+		font-size: 55px;
+		color: black;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		font-weight: normal;
+    }
+    h2{
+        font-family: 'flama_condensed_semiboldSBd';
+        font-size: 35px;
+        color: white;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        /*margin-top: 20px;*/
+        margin: 0;
+        font-weight: lighter;
+    }
+    h3{
+        font-family: 'flama_condensed_semiboldSBd';
+        font-size: 35px;
+        color: black;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    h4{
+        font-family: "flama_condensed_semiboldSBd";
+        font-size: 20px;
+        color: black;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    h5{
+        font-family: "flama_condensed_semiboldSBd";
+        font-size: 16px;
+        color: black;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .jumbotron {
+      padding: 60px;
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+    .jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
+		height: 513px;
+	}
+	/*.navbar{
+		z-index: 10000;
+	}*/
+    .subnav {
+        background-color:#e7e7e7; 
+        min-height:40px;  
+        height:40px;
+        border-radius: 0;
+        margin-top: 80px;
+        z-index: 1000;
+    }
+    .subnav .nav {
+        background-color:#e7e7e7;
+    }
+    .hero h1{
+        margin-top: 120px;
+    }
+    .bred{
+        height:70px;
+    }
+    .footer .form-inline .form-control{
+        width: 220px;
+    }
+    .newsLink{
+    	font-size: 12px;
+    	text-decoration: none;
+    	text-transform: uppercase;
+    }
+    .social{
+    	margin: 0 7px;
+    }
+    .subtotalAmt{
+    	margin-bottom: 30px;
+    	/*margin-left: 60px;*/
+    	display: inline-block;
+    	font-size: 16px;
+    }
+    .subtotal{
+    	/*margin-left: 50px;*/
+    	display: inline-block;
+    	font-size: 16px;
+    }
+    .btn-update{
+    	margin-right: 30px;
+    	margin-left: 90px;
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
+	.btn-checkout{
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: white;
+		background: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
+	.itemName{
+		font-size: 18px;
+		font-weight: bolder;
+		letter-spacing: 1px;
+	}
+}
+@media (min-width: 1020px){
+	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
+		height: 513px;
+	}
+	.jumbotron{
+		margin-top: 0;
+	}
+	.text1{
+		background-color: #eee;
+		padding: 60px;
+	}
+	.text2{
+		background-color: #eee;
+		padding: 30px;
+	}
+	.jumbotron.featuredProd{
+		padding: 0px;
+	}
+	.jumbotron.featuredProd h3{
+		margin-top: 60px;
+	}
+	.carousel-caption {
+    right: 20%;
+    left: -2%;
+    padding-bottom: 164px;
+	}
+    h1{
+    	font-weight: normal;
+    }
+    h2{
+    	font-weight: lighter;
+    }
+    .btn-black{
+    	margin-bottom: 30px;
+    }
+    .subtotal{
+    	margin-bottom: 30px;
+    	/*margin-left: 68px;*/
+    	font-size: 16px;
+    }
+    .subtotalAmt{
+    	margin-bottom: 30px;
+    	/*margin-left: 98px;*/
+    	font-size: 16px;
+    }
+    .btn-update{
+    	margin-right: 30px;
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
+	.btn-checkout{
+    	margin-bottom: 30px;
+		border: 3px solid black;
+		text-transform: uppercase;
+		padding: 2px 9px;
+		font-family: "flama_condensed_semiboldSBd";
+		color: white;
+		background: black;
+		font-size: 16px;
+		letter-spacing: .5px;
+	}
+}
+@media (min-width: 1200px){
+	.jumbotron.hero,.jumbotron.hero1,.jumbotron.hero2,.jumbotron.hero3,.hero1car{
+		height: 513px;
+	}
+	.carousel-caption {
+    right: 20%;
+    left: 2%;
+    padding-bottom: 128px;
+	}
+}
+
