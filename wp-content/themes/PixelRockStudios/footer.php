@@ -47,7 +47,7 @@
           </div>
           <button type="submit" class="btn btn-success">JOIN</button>
         </form>
-        <img class="social" src="img/twitter.gif" alt="twitter" /><img class="social" src="img/facebook.gif" alt="facebook" /><img class="social" src="img/instagram.gif" alt="instagram" /> </div>
+        <img class="social" src="/wp-content/themes/PixelRockStudios/img/twitter.gif" alt="twitter" /><img class="social" src="/wp-content/themes/PixelRockStudios/img/facebook.gif" alt="facebook" /><img class="social" src="/wp-content/themes/PixelRockStudios/img/instagram.gif" alt="instagram" /> </div>
     </div>
   </div>
 </div>
