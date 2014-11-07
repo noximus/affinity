@@ -31,7 +31,7 @@ Default layout, loads most of the pages
 -->
 
     <default>
-        <block type="page/html" name="root" output="toHtml" template="page/2columns-left.phtml">
+        <block type="page/html" name="root" output="toHtml" template="page/1column.phtml">
 
             <block type="page/html_head" name="head" as="head">
                 <action method="addJs"><script>prototype/prototype.js</script></action>
@@ -47,9 +47,13 @@ Default layout, loads most of the pages
                 <action method="addJs"><script>varien/menu.js</script></action>
                 <action method="addJs"><script>mage/translate.js</script></action>
                 <action method="addJs"><script>mage/cookies.js</script></action>
+                <action method="addJs"><script>jquery-1.11.1.min.js</script></action>
+                <action method="addJs"><script>bootstrap.js</script></action>
                 <action method="addCss"><stylesheet>css/reset.css</stylesheet></action>
-                <action method="addCss"><stylesheet>css/styles.css</stylesheet></action>
-                <action method="addCss"><stylesheet>css/clears.css</stylesheet></action>
+                
+                <action method="addCss"><stylesheet>css/stylesheet.css</stylesheet></action>
+                <action method="addCss"><stylesheet>css/bootstrap.css</stylesheet></action>
+                <action method="addCss"><stylesheet>css/style.css</stylesheet></action>
 
                 <action method="addItem"><type>skin_css</type><name>css/styles-ie.css</name><params/><if>lt IE 8</if></action>
 
@@ -103,6 +107,7 @@ Default layout, loads most of the pages
                 <action method="addCss"><stylesheet>css/reset.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/styles.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/clears.css</stylesheet></action>
+                <action method="addCss"><stylesheet>css/bootstrap.css</stylesheet></action>
 
                 <action method="addItem"><type>skin_css</type><name>css/styles-ie.css</name><params/><if>lt IE 8</if></action>
 
@@ -169,6 +174,13 @@ Default layout, loads most of the pages
     <page_three_columns>
         <reference name="root">
             <action method="setTemplate"><template>page/3columns.phtml</template></action>
+            <!-- Mark root page block that template is applied -->
+            <action method="setIsHandle"><applied>1</applied></action> 
+        </reference>
+    </page_three_columns>
+    <page_three_columns>
+        <reference name="root">
+            <action method="setTemplate"><template>page/boot.phtml</template></action>
             <!-- Mark root page block that template is applied -->
             <action method="setIsHandle"><applied>1</applied></action> 
         </reference>

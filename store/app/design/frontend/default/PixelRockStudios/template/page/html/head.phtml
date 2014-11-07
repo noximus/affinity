@@ -24,6 +24,14 @@
  * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<!--<script type="text/javascript" src="js/script.js"></script> -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
 <title><?php echo $this->getTitle() ?></title>
 <meta http-equiv="Content-Type" content="<?php echo $this->getContentType() ?>" />
 <meta name="description" content="<?php echo htmlspecialchars($this->getDescription()) ?>" />
@@ -41,3 +49,4 @@
 <?php echo $this->getChildHtml() ?>
 <?php echo $this->helper('core/js')->getTranslatorScript() ?>
 <?php echo $this->getIncludes() ?>
+
