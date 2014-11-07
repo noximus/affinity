@@ -38,7 +38,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<div id="page" class="hfeed site">
+	<div id="page">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -48,24 +48,25 @@
               <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown"><a href="#" class="dropdown-toggle text-center" data-toggle="dropdown">&nbsp;&nbsp;shop&nbsp;&nbsp;</a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="products.html">frames</a></li>
-                    <li><a href="products.html">completes</a></li>
-                    <li><a href="products.html">components</a></li>
+                    <li><a href="/store/">New</a></li>
+                    <li><a href="/store/">frames</a></li>
+                    <li><a href="/store/">completes</a></li>
+                    <li><a href="/store/">components</a></li>
                     <li><a href="products.html">apparel</a></li>
                     <li><a href="products.html">accessories</a></li>
                   </ul>
                 </li>
                 <li class="dropdown"> <a href="#" class="dropdown-toggle text-center" data-toggle="dropdown">STORY</a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">partners</a></li>
+                    <li><a href="/faq/">about</a></li>
+                    <li><a href="/faq/">Team</a></li>
+                    <li><a href="/faq/">process</a></li>
                   </ul>
                 </li>
                 <li class="dropdown"> <a href="#" class="dropdown-toggle text-center" data-toggle="dropdown">Happenings</a>
                   <ul class="dropdown-menu" role="menu">
-                    <li><a href="news.html">Social</a></li>
-                    <li><a href="newsDetail.html">Videos</a></li>
+                    <li><a href="/news-page/">Social</a></li>
+                    <li><a href="/news-detail/">Videos</a></li>
                     <li><a href="#">photos</a></li>
                     <li><a href="#">team</a></li>
                     <li><a href="#">builds</a></li>
