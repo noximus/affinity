@@ -29,28 +29,26 @@
  * Template for Mage_Page_Block_Html
  */
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
+<!doctype html>
+
 <head>
-<?php echo $this->getChildHtml('head') ?>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title><?php echo $this->getTitle() ?></title>
+<link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('fonts/stylesheet.css') ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('css/bootstrap.css') ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('css/style.css') ?>">
+
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/jquery-1.11.1.min.js') ?>"></script>
+<!--<script type="text/javascript" src="js/script.js"></script> -->
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/bootstrap.js') ?>"></script>
+<head>
 </head>
 <body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
-<div class="wrapper">
-    <?php echo $this->getChildHtml('global_notices') ?>
-    <div class="page">
-        <?php echo $this->getChildHtml('header') ?>
-        <div class="main col2-left-layout">
-            <?php echo $this->getChildHtml('breadcrumbs') ?>
-            <div class="col-left sidebar"><?php echo $this->getChildHtml('left') ?></div>
-            <div class="col-main">
-                <?php echo $this->getChildHtml('global_messages') ?>
-                <?php echo $this->getChildHtml('content') ?>
-            </div>
-        </div>
-        <?php echo $this->getChildHtml('footer') ?>
-        <?php echo $this->getChildHtml('before_body_end') ?>
-    </div>
-</div>
-<?php echo $this->getAbsoluteFooter() ?>
+<?php echo $this->getChildHtml('header') ?>
+
+<?php echo $this->getChildHtml('content') ?>
+ <?php echo $this->getChildHtml('footer') ?>
 </body>
 </html>

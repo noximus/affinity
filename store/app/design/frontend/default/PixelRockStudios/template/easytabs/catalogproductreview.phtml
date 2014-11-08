@@ -24,16 +24,21 @@
  * @license    http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 bot60 top60 center-block text-center">
+        <h3>the lo pro</h3>
+    </div>
+  </div>
 <?php $_items = $this->getReviewsCollection()->getItems();?>
 <?php if (count($_items)):?>
-<div class="collateral-box dedicated-review-box" id="customer-reviews">
+<div class="collateral-box dedicated-review-box container" id="customer-reviews">
 
     <?php echo $this->getChildHtml('toolbar') ?>
 
-    <ol style="margin-top:15px;">
+    <div class="row" style="margin-top:15px;">
         <?php foreach ($_items as $_review):?>
-            <li>
+            <div class="col-md-8">
                 <strong><?php echo $this->htmlEscape($_review->getTitle()) ?></strong> <?php echo $this->__('Review by %s', $this->htmlEscape($_review->getNickname())) ?>
                 <table class="ratings-list" cellspacing="0">
                     <tbody>
@@ -50,9 +55,9 @@
                     </tbody>
                 </table>
                 <p><?php echo nl2br($this->htmlEscape($_review->getDetail())) ?> <?php echo $this->__('(Posted on %s)', $this->formatDate($_review->getCreatedAt()), 'long') ?></p>
-            </li>
+            </div>
         <?php endforeach; ?>
-    </ol>
+    </div>
 
     <?php echo $this->getChildHtml('toolbar') ?>
 </div>
