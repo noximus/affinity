@@ -35,28 +35,28 @@
 ?>
 <?php $_productCollectionNW=$this->getLoadedProductCollection() ?>
 <?php if(!$_productCollectionNW->count()): ?>
-<p class="note-msg"><?php echo $this->__('There are no products matching the selection.') ?></p>
+<p class="alert alert-danger"><?php echo $this->__('There are no products matching the selection.') ?></p>
 <?php else: ?>
-<div class="category-products">
+
+<div class="container">
     <?php echo $this->getToolbarHtml() ?>
 
     <?php // List mode ?>
     <?php if($this->getMode()!='grid'): ?>
     <?php $_iterator = 0; ?>
-    <ol class="products-list" id="products-list">
+    <ol class="row" id="products-list">
     <?php foreach ($_productCollectionNW as $_product): ?>
-        <li class="item<?php if( ++$_iterator == sizeof($_productCollectionNW) ): ?> last<?php endif; ?>">
+    
+        <li class="item<?php if( ++$_iterator == sizeof($_productCollectionNW) ): ?> last<?php endif; ?> col-md-4 col-sm-6 text-center top60 bot60">
             <?php // Product Image ?>
             <a class="product-image-small" href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>">
-                <img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(95, 92); ?>" width="95" height="92" alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
+                <img class="img-responsive center-block" src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(95, 92); ?>"  alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
 
             <?php // Product description ?>
             <div class="product-shop">
-                <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><?php echo $this->htmlEscape($_product->getName())?></a></h3>
-                <?php if($_product->getRatingSummary()): ?>
-                <?php echo $this->getReviewsSummaryHtml($_product) ?>
-                <?php endif; ?>
-                <?php echo $this->getPriceHtml($_product, true) ?>
+                <h5 class="top30 bot30 "><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><?php echo $this->htmlEscape($_product->getName())?></a></h5>
+                
+               <?php echo nl2br($_product->getShortDescription()) ?>
                 <?php if($_product->isSaleable()): ?>
                 <p><button class="button" onclick="setLocation('<?php echo $_product->getProductUrl() ?>')"><span><?php echo $this->__('Buy now') ?></span></button></p>
                 <?php else: ?>
@@ -85,45 +85,32 @@
     <?php // Grid Mode ?>
 
     <?php $_collectionSizeNW = $_productCollectionNW->count() ?>
-    <table class="products-grid" id="products-grid-table">
-    <?php $_columnCount = 5; ?>
+    <div class="container">
+    <?php $_columnCount = 3; ?>
     <?php $i=0; foreach ($_productCollectionNW as $_product): ?>
         <?php if ($i++%$_columnCount==0): ?>
-        <tr>
+        <div class="row">
         <?php endif ?>
-            <td class="viewed">
+            <div class="viewed col-md-4 col-sm-6 text-center top60 bot60">
                 <a class="product-image-small" href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>">
-                    <img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(95, 92); ?>" width="95" height="92" alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
-                <h3 class="product-name"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><?php echo $this->htmlEscape($_product->getName()) ?></a></h3>
-                <?php if($_product->getRatingSummary()): ?>
-                <?php echo $this->getReviewsSummaryHtml($_product, 'short') ?>
-                <?php endif; ?>
-                <?php echo $this->getPriceHtml($_product, true) ?>
-                <?php if($_product->isSaleable()): ?>
-                <button type="button" class="button" onclick="setLocation('<?php echo $_product->getProductUrl() ?>')"><span><?php echo $this->__('Buy now') ?></span></button>
-                <?php else: ?>
-                <p class="availability"><span class="out-of-stock"><?php echo $this->__('Out of stock') ?></span></p>
-                <?php endif; ?>
-                <ul class="add-to-links">
-                    <?php if ($this->helper('wishlist')->isAllow()) : ?>
-                        <li><a href="<?php echo $this->helper('wishlist')->getAddUrl($_product) ?>"><?php echo $this->__('Add to Wishlist') ?></a></li>
-                    <?php endif; ?>
-                    <?php if($_compareUrl=$this->getAddToCompareUrl($_product)): ?>
-                        <li><span class="separator">|</span> <a href="<?php echo $_compareUrl ?>"><?php echo $this->__('Add to Compare') ?></a></li>
-                    <?php endif; ?>
-                </ul>
-            </td>
+                    <img class="img-responsive" src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image'); ?>" alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
+                <h5 class="product-name top30 bot30"><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><?php echo $this->htmlEscape($_product->getName()) ?></a></h5>
+                <span class="center-block"><?php echo nl2br($_product->getShortDescription()) ?></span>
+            </div>
         <?php if ($i%$_columnCount==0 && $i!=$_collectionSizeNW): ?>
-        </tr>
+        </div>
+        <div class="col-md-12">
+            <hr />
+          </div>
         <?php endif ?>
         <?php endforeach ?>
         <?php for($i;$i%$_columnCount!=0;$i++): ?>
-              <td class="empty">&nbsp;</td>
+              <div class="empty col-md-4 col-sm-6 text-center top60 bot60">&nbsp;</div>
         <?php endfor ?>
         <?php if ($i%$_columnCount==0): ?>
-        </tr>
-        <?php endif ?>
-    </table>
+        </div>
+                <?php endif ?>
+    </div>
     <script type="text/javascript">decorateTable('products-grid-table')</script>
     <?php endif; ?>
     <?php echo $this->getToolbarHtml() ?>

@@ -35,25 +35,20 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<title><?php echo $this->getTitle() ?></title>
+<link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('fonts/stylesheet.css') ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('css/bootstrap.css') ?>">
+<link rel="stylesheet" type="text/css" href="<?php echo $this->getSkinUrl('css/style.css') ?>">
+
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/jquery-1.11.1.min.js') ?>"></script>
+<!--<script type="text/javascript" src="js/script.js"></script> -->
+<script type="text/javascript" src="<?php echo $this->getSkinUrl('js/bootstrap.js') ?>"></script>
 <head>
-<?php echo $this->getChildHtml('head') ?>
 </head>
 <body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
 <?php echo $this->getChildHtml('header') ?>
 
-    <?php echo $this->getChildHtml('global_notices') ?>
-
-        
-
-            <?php echo $this->getChildHtml('breadcrumbs') ?>
-            <div class="col-main">
-                <?php echo $this->getChildHtml('global_messages') ?>
-                <?php echo $this->getChildHtml('content') ?>
-            </div>
-
-        <?php echo $this->getChildHtml('footer') ?>
-        <?php echo $this->getChildHtml('before_body_end') ?>
-
-<?php echo $this->getAbsoluteFooter() ?>
+<?php echo $this->getChildHtml('content') ?>
+ <?php echo $this->getChildHtml('footer') ?>
 </body>
 </html>
