@@ -1,3 +1,4 @@
+/*test*/
 .nav{
 	/*height: 70px;*/
 	background: white;
@@ -10,12 +11,15 @@
 body{
 	padding-top: 70px;
 }
+body.home{
+	padding-top: 40px;
+}
 .navbar-brand{
 	height: 70px;
 	padding: 17px 30px;
 }
 .navbar-brand img{
-	width: 141px;
+	width: 170px;
 	/*this is the shopping cart*/
 }
 .navbar-default{
@@ -120,7 +124,7 @@ h2{
 h3{
 	font-family: 'flama_condensed_semiboldSBd';
 	font-size: 25px;
-	color: black;
+	color: #454545;
 	letter-spacing: 1.3px;
 	text-transform: uppercase;
 	margin: 0;
@@ -128,21 +132,21 @@ h3{
 h4{
 	font-family: "flama_condensed_semiboldSBd";
 	font-size: 18px;
-	color: black;
+	color: #454545;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 h5{
 	font-family: "flama_condensed_semiboldSBd";
 	font-size: 14px;
-	color: black;
+	color: #454545;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 h6{
 	font-family: 'flama_semicondensedlight';
 	font-size: 16px;
-	color: black;
+	color: #454545;
 	/*letter-spacing: 1px;*/
 }
 .footer {
@@ -150,7 +154,7 @@ h6{
     height:auto;
     min-height:165px;
     background-color:#bcbdc0;
-    color: black;
+    color: #454545;
 }
 .footer .form-inline .form-control{
     background-color:white;
@@ -166,7 +170,7 @@ h6{
 	letter-spacing: .5px;
 }
 .bred {
-    background: black;
+    background: #454545;
     color: white;
     text-align: center;
     height: 58px;
@@ -180,13 +184,13 @@ h6{
 	padding: 0;
 }
 .question{
-	color: black;
+	color: #454545;
 }
 .btn-black{
 	font-family: "flama_condensed_semiboldSBd";
-	border: 3.5px solid black;
+	border: 3.5px solid #454545;
 	font-size: 25px;
-	color: black;
+	color: #454545;
 	font-weight: bold;
 	padding: 2px 4px;
 	line-height: 1;
@@ -209,7 +213,7 @@ h6{
 }
 .addcartbtn{
 	border: none;
-	background: black;
+	background: #454545;
 	color: white;
 	padding: 6px 67px;
 }
@@ -228,7 +232,7 @@ h6{
 	text-transform: uppercase;
 	padding: 2px 9px;
 	font-family: "flama_condensed_semiboldSBd";
-	color: black;
+	color: #454545;
 	font-size: 16px;
 	letter-spacing: .5px;
 }
@@ -239,7 +243,7 @@ h6{
 	padding: 2px 9px;
 	font-family: "flama_condensed_semiboldSBd";
 	color: white;
-	background: black;
+	background: #454545;
 	font-size: 16px;
 	letter-spacing: .5px;
 }
@@ -334,7 +338,7 @@ h6{
 		text-transform: uppercase;
 		padding: 2px 9px;
 		font-family: "flama_condensed_semiboldSBd";
-		color: black;
+		color: #454545;
 		font-size: 16px;
 		letter-spacing: .5px;
 	}
@@ -345,7 +349,7 @@ h6{
 		padding: 2px 9px;
 		font-family: "flama_condensed_semiboldSBd";
 		color: white;
-		background: black;
+		background: #454545;
 		font-size: 16px;
 		letter-spacing: .5px;
 	}
@@ -353,6 +357,16 @@ h6{
 @media (min-width: 768px){
     body{
     	padding-top: 80px;
+    }
+    body.home{
+		padding-top: 50px;
+	}
+    .home p{
+        font-size: 16px;
+    }
+    .subnav a{
+        font-size: 14px !important;
+        padding: 11px 30px 9px 30px !important;
     }
     .carousel-caption {
 	    right: 20%;
@@ -380,21 +394,21 @@ h6{
     h3{
         font-family: 'flama_condensed_semiboldSBd';
         font-size: 35px;
-        color: black;
+        color: #454545;
         letter-spacing: 2px;
         text-transform: uppercase;
     }
     h4{
         font-family: "flama_condensed_semiboldSBd";
-        font-size: 20px;
-        color: black;
+        font-size: 30px;
+        color: #454545;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
     h5{
         font-family: "flama_condensed_semiboldSBd";
         font-size: 16px;
-        color: black;
+        color: #454545;
         letter-spacing: 1px;
         text-transform: uppercase;
     }
@@ -456,7 +470,7 @@ h6{
 		text-transform: uppercase;
 		padding: 2px 9px;
 		font-family: "flama_condensed_semiboldSBd";
-		color: black;
+		color: #454545;
 		font-size: 16px;
 		letter-spacing: .5px;
 	}
@@ -467,7 +481,7 @@ h6{
 		padding: 2px 9px;
 		font-family: "flama_condensed_semiboldSBd";
 		color: white;
-		background: black;
+		background: #454545;
 		font-size: 16px;
 		letter-spacing: .5px;
 	}
@@ -529,7 +543,7 @@ h6{
 		text-transform: uppercase;
 		padding: 2px 9px;
 		font-family: "flama_condensed_semiboldSBd";
-		color: black;
+		color: #454545;
 		font-size: 16px;
 		letter-spacing: .5px;
 	}
@@ -540,7 +554,7 @@ h6{
 		padding: 2px 9px;
 		font-family: "flama_condensed_semiboldSBd";
 		color: white;
-		background: black;
+		background: #454545;
 		font-size: 16px;
 		letter-spacing: .5px;
 	}
@@ -555,4 +569,3 @@ h6{
     padding-bottom: 128px;
 	}
 }
-
